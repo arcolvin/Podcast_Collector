@@ -3,9 +3,14 @@
 A utility to download podcasts
 '''
 
+# TODO: Move the namespace search REGEX string from the config into the script
+        # This does not need to be managed by the end user unless they are
+        # an advanced user.
+# TODO: Add Docstrings and ensure comments are accurate and helpful
+# TODO: Syslogging and/or debug messaging
+# TODO: Remove print statements
 # TODO: Multithreaded downloads
 # TODO: Error handling
-# TODO: Syslogging and/or debug messaging
 # TODO: Add type hints to functions
 
 import os
