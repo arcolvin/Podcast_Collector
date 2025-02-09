@@ -1,0 +1,13 @@
+dryRun: false  # Set to true to see the podcast download process without actually downloading any podcasts. Set to false for normal operations.
+outPath: '~/Downloads/Podcast'  # Where to save the folders for each podcast collected
+namespaceRegex: '(?:xmlns:(\S+)="(\S+)"[\s>])'  # Do not touch. Locates the XML Name spaces in the RSS feed for processing of things like itunes XML tags
+podList:
+  - name: Podcast_1  # This will be the directory name for this podcast located in the directory specified above
+    rssFeedUrl: 'https://example.null'  # this should be the URL to the RSS feed
+    episodeUrlFilter: '(.*?)\?'  # OPTIONAL: Use this to filter the URL for the episode downloads, for example if you would like to remove any URL parameters
+    artUrlFilter: '(.*?)\?'  # OPTIONAL: Use this to filter the URL for the individual episode art, for example to remove URL parameters
+
+  - name: Podcast_2  # This will be the directory name for this podcast located in the directory specified above
+    rssFeedUrl: 'https://example.null'  # this should be the URL to the RSS feed
+    episodeUrlFilter: '(.*?)\?'  # OPTIONAL: Use this to filter the URL for the episode downloads, for example if you would like to remove any URL parameters
+    artUrlFilter: '(.*?)\?'  # OPTIONAL: Use this to filter the URL for the individual episode art, for example to remove URL parameters
