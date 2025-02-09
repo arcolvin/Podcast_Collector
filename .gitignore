@@ -7,7 +7,7 @@ bstest
 venv
 .venv
 .vscode
-Development_Sample_XML
+Sample_RSS_XML
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
